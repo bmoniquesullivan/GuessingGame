@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<TextView
+		android:text="GUESS A NUMBER"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/text_title"
+		android:gravity="center"
+		android:textColor="#ff4a148c"
+		android:paddingTop="20dp"
+		android:paddingBottom="30dp"
+		android:textColorHighlight="#ffe1bee7"
+		android:textStyle="bold" />
+	<TextView
+		android:text="Number of Tries: 0"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/text_tries"
+		android:gravity="center"
+		android:paddingBottom="20dp"
+		android:textColor="#ff000000" />
+	<TextView
+		android:text="Guess the number I'm thinking:"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/text_instructions"
+		android:gravity="center"
+		android:textStyle="italic" />
+	<EditText
+		android:inputType="numberDecimal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/edit_number"
+		android:digits="0123456789" />
+	<Button
+		android:text="GUESS"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/cmd_guess"
+		android:gravity="center"
+		android:freezesText="false"
+		android:layout_gravity="center"
+		android:textColor="#fffcfcfc"
+		android:textColorHighlight="#ffe1d5d5"
+		android:background="#ff7b1fa2" />
+	<Button
+		android:text="RESTART GAME"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/cmd_restart"
+		android:gravity="center"
+		android:freezesText="false"
+		android:layout_gravity="center"
+		android:textColor="#ff4a148c"
+		android:textColorHighlight="#ffe1d5d5"
+		android:background="#fff3e5f5"
+		android:layout_marginTop="10dp"
+		android:layout_marginHorizontal="15dp"
+		android:layout_marginVertical="35dp"
+		android:paddingHorizontal="25dp" />
+
+</LinearLayout>

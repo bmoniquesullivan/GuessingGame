@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<TextView
+		android:text="CONGRATULATIONS!!!"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/text_congrats"
+		android:gravity="center"
+		android:textColor="#ff4a148c"
+		android:textAllCaps="true"
+		android:textStyle="bold"
+		android:paddingBottom="30dp"
+		android:paddingTop="30dp" />
+	<TextView
+		android:text="The number I was thinking was: 0"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/text_lastsort"
+		android:paddingBottom="10dp"
+		android:paddingTop="10dp"
+		android:gravity="center" />
+	<TextView
+		android:text="Number of Tries: 0"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/text_lasttry"
+		android:paddingTop="10dp"
+		android:paddingBottom="10dp"
+		android:gravity="center" />
+	<RelativeLayout
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/relativeLayout1">
+		<Button
+			android:text="END GAME"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/cmd_end"
+			android:layout_alignParentBottom="true"
+			android:layout_centerHorizontal="true" />
+	</RelativeLayout>
+
+</LinearLayout>
